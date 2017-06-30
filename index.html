@@ -36,8 +36,10 @@
 			var elem = document.getElementById('mapimg');
 			if (elem.src.indexOf('map.svg') != -1) {
 				elem.src = elem.src.replace('map.svg', 'original.svg');
+				ga('send', 'event', 'Map', 'click', 'toOriginal');
 			} else {
 				elem.src = elem.src.replace('original.svg', 'map.svg');
+				ga('send', 'event', 'Map', 'click', 'toTranslated');
 			}
 		}
 	</script>
