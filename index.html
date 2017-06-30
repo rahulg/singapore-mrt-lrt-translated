@@ -26,10 +26,20 @@
     <header>
         <h1>Singapore MRT/LRT Map: Translated</h1>
     </header>
-	<img src="map.svg">
+	<img id="mapimg" src="map.svg" onclick="swapMap()">
 	<footer>
 		<p><a href="https://github.com/rahulg/singapore-mrt-lrt-translated">Source</a>; CC BY-SA 3.0; Attribution: <a href="https://commons.wikimedia.org/wiki/User:Aforl">Aforl on Wikimedia Commons</a></p>
 	</footer>
+	<script type="text/javascript">
+		function swapMap() {
+			var elem = document.getElementById('mapimg');
+			if (elem.src.indexOf('map.svg') != -1) {
+				elem.src = elem.src.replace('map.svg', 'original.svg');
+			} else {
+				elem.src = elem.src.replace('original.svg', 'map.svg');
+			}
+		}
+	</script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,7 +48,6 @@
 
 	  ga('create', 'UA-45585898-2', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
 </body>
 
