@@ -16,7 +16,7 @@
             </text>
             <text id="lgnel" x="26.5" y="790.2" font-size="11" font-weight="bold">North East Line (NEL)</text>
             <text id="lgnel2" x="51" y="800.2" font-size="10">
-                <tspan font-weight="bold">Opens 2023:</tspan> NEL Extension (Punggol - Punggol Coast)            
+                <tspan font-weight="bold">Opens 2023:</tspan> NEL Extension (Tree Stump - Tree Stump Coast)
             </text>
             <text id="lgccl" x="26.5" y="814.5" font-size="11" font-weight="bold">Circle Line (CCL)</text>
             <text id="lgccl6" x="51" y="824.5" font-size="10">
@@ -622,7 +622,7 @@
             <text id="lbpe7" x="1148" y="219" font-size="10">Peaceful</text>
             <text id="lbpw1" x="1116" y="177" font-size="10">Sam Kee</text>
             <text id="lbpw2" x="1112" y="150" font-size="10" fill="#aaaaaa">Teck Lee</text>
-            <text id="lbpw3" x="1095" y="131" font-size="10">Punggol Point</text>
+            <text id="lbpw3" x="1095" y="131" font-size="10">Tree Stump Point</text>
             <text id="lbpw4" x="1006" y="142" font-size="10">Ocean</text>
             <text id="lbpw5" x="1013" y="181" font-size="10">Stilts</text>
             <text id="lbpw6" x="1025" y="198" font-size="10">Sumang</text>
