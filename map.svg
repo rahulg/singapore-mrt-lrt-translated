@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" height="1007" width="1331">
+    <title>Singapore MRT/LRT system map</title>
+    <rect id="bg" height="1007" width="1331" y="0" x="0" fill="#ffffff"/>
+    <g id="legend">
+        <rect id="lgbox" height="314" width="380" x="0" y="693" fill="#f2f2f2"/>
+        <g id="lglabels" font-family="Arial" line-height="100%" fill="#000000">
+            <text id="lgtitle" x="7.1" y="717" font-size="20" font-weight="bold">SINGAPORE MRT/LRT MAP</text>
+            <text id="lgupd" x="7.4" y="729" font-size="10">Updated on 18 June 2017</text>
+            <text id="lgewl" x="26.5" y="747" font-size="11" font-weight="bold">East West Line (EWL)</text>
+            <text id="lgnsl" x="26.5" y="766.5" font-size="11" font-weight="bold">North South Line (NSL)</text>
+            <text id="lgewl2" x="51" y="776.5" font-size="10">
+                <tspan font-weight="bold">Opens 2019:</tspan> Canberra Station            
+            </text>
+            <text id="lgnel" x="26.5" y="790.2" font-size="11" font-weight="bold">North East Line (NEL)</text>
+            <text id="lgnel2" x="51" y="800.2" font-size="10">
+                <tspan font-weight="bold">Opens 2023:</tspan> NEL Extension (Punggol - Punggol Coast)            
+            </text>
+            <text id="lgccl" x="26.5" y="814.5" font-size="11" font-weight="bold">Circle Line (CCL)</text>
+            <text id="lgccl6" x="51" y="824.5" font-size="10">
+                <tspan font-weight="bold">Opens 2025:</tspan> CCL Stage 6 (Harbourfront - Marina Bay)            
+            </text>
+            <text id="lgdtl" x="26.5" y="838" font-size="11" font-weight="bold">Downtown Line (DTL)</text>
+            <text id="lgdtl3" x="51" y="848" font-size="10">
+                <tspan font-weight="bold">Opens 21 October 2017:</tspan> DTL Stage 3 (Chinatown - Expo)            
+            </text>
+            <text id="lgdtl4" x="51" y="858" font-size="10">
+                <tspan font-weight="bold">Opens 2024:</tspan> DTL Extension (Expo - River Drum)            
+            </text>
+            <text id="lgtel" x="26.5" y="871" font-size="11" font-weight="bold">Thomson-East Coast Line (TEL)</text>
+            <text id="lgtel1" x="51" y="881" font-size="10">
+                <tspan font-weight="bold">Opens 2019:</tspan> TEL Stage 1 (Woodlands North - Woodlands South)            
+            </text>
+            <text id="lgtel2" x="51" y="891" font-size="10">
+                <tspan font-weight="bold">Opens 2020:</tspan> TEL Stage 2 (Woodlands South - Caldecott)            
+            </text>
+            <text id="lgtel3" x="51" y="901" font-size="10">
+                <tspan font-weight="bold">Opens 2021:</tspan> TEL Stage 3 (Caldecott - Gardens by the Bay)            
+            </text>
+            <text id="lgtel4" x="51" y="911" font-size="10">
+                <tspan font-weight="bold">Opens 2023:</tspan> TEL Stage 4 (Gardens by the Bay - Bayshore)            
+            </text>
+            <text id="lgtel5" x="51" y="921" font-size="10">
+                <tspan font-weight="bold">Opens 2024:</tspan> TEL Stage 5 (Bayshore - River Drum)            
+            </text>
+            <text id="lgjrl" x="26.5" y="933.5" font-size="11" font-weight="bold">Jurong Region Line (JRL)</text>
+            <text id="lgjrl1" x="51" y="944" font-size="10">
+                <tspan font-weight="bold">Opens 2025:</tspan> Main Line            
+            </text>
+            <text id="lgjrl2" x="51" y="954" font-size="10">
+                <tspan font-weight="bold">Opens 2030:</tspan> West Coast Extension (subject to feasibility studies)            
+            </text>
+            <text id="lgcrl" x="26.5" y="967" font-size="11" font-weight="bold">Cross Island Line (CRL)</text>
+            <text id="lgcrl1" x="51" y="977" font-size="10" font-weight="bold">Opens 2030</text>
+            <text id="lglrt" x="26.5" y="990.2" font-size="11" font-weight="bold">Light Rapid Transit (LRT) Lines</text>
+        </g>
+        <g id="lgcolorbox">
+            <rect height="12.5" width="12.5" x="8" y="737" fill="#009645"/>
+            <rect height="12.5" width="12.5" x="8" y="756" fill="#d42e12"/>
+            <rect height="12.5" width="12.5" x="8" y="781" fill="#9900aa"/>
+            <rect height="12.5" width="12.5" x="8" y="805" fill="#fa9e0d"/>
+            <rect height="12.5" width="12.5" x="8" y="828" fill="#005ec4"/>
+            <rect height="12.5" width="12.5" x="8" y="861" fill="#784008"/>
+            <rect height="12.5" width="12.5" x="8" y="924" fill="#fcd647"/>
+            <rect height="12.5" width="12.5" x="8" y="957" fill="#3caeb6"/>
+            <rect height="12.5" width="12.5" x="8" y="981" fill="#999999"/>
+        </g>
+        <g id="lgcolorpath" stroke-dasharray="8, 4" stroke-width="4" fill="none">
+            <path d="m27 797h20" stroke="#9900aa" />
+            <path d="m27 821h20" stroke="#fa9e0d" />
+            <path d="m27 844h20" stroke="#005ec4" />
+            <path d="m27 877h20" stroke="#784008" />
+            <path d="m27 940h20" stroke="#fcd647" />
+            <path d="m27 974h20" stroke="#3caeb6" />
+        </g>
+        <circle id="lgns12" cx="37" cy="774" r="3" stroke="#d42e12" fill="#ffffff" stroke-width="2"/>
+    </g>
+    <g id="lines" fill="none" stroke-width="4">
+        <g id="ewl" stroke="#009645">
+            <path d="m1178 658v16q0 20 20 20h84"/>
+            <path d="m1234 523-25 25 q-14.14 14.14-14.14 34.14 v57 q0 20 -20 20 h-239 q-20 0 -34.14 14.14 l-177 177 q-14.14 14.14-34.14 14.14 h-15 q-20 0 -34.14 -14.14 l-21-21 q-14.14-14.14-14.14-34.14 q0-20-14.14-34.14 l-232.4-232.4 q-14.14-14.14-34.14-14.14 h-280.6 q-20 0-20 20 v147"/>
+        </g>
+        <g id="nsl" stroke="#d42e12">
+            <path d="m236 514v-427q0-20 20-20h460q20 0 20 20v344 q0 20-14.14 34.14 l-104 104 q-14.14 14.14 0 28.28 l162 162 q14.14 14.14 0 28.28 l-67.7 67.7 q-14.14 14.14 0 28.28 l72 72"/>
+        </g>
+        <g id="nel" stroke="#9900aa">
+            <path d="m532 866 l173.2-173.2 q14.14-14.14 14.14-28.28 v-28 q0 -20 14.14 -34.34 l390 -390"/>
+            <path id="nelex" d="m1198 138.46-81 81" stroke-dasharray="8, 8"/>
+        </g>
+        <g id="ccl" stroke="#fa9e0d">
+            <path d="m704 689q20 0 34.14 14.14 l124 124 q14.14 14.14 28.28 0"/>
+            <path d="m532 867 A 265 265 0 1 1 743 914"/>
+            <path id="cclex" d="m532 867 A 265 265 0 0 0 743 914" stroke-width="4.5" stroke-dasharray="10, 10"/>
+        </g>
+        <g id="dtl" stroke="#005ec4">
+            <path d="m429 225 v157 q0 20 14.14 34.14 l48.5 48.5 q14.14 14.14 34.14 14.14 h56 q20 0 34.14 14.14 l284 284 q13 14.14 0 30 c-16.1 22.6-47.3 54.9-93.9 80 q-20.34 9-41.1-10 l-121-121"/>
+        </g>
+        <g id="dtlex" stroke="#005ec4" stroke-dasharray="8, 8">
+            <path d="m648 760q-14.14 -14.14 0 -28.28 l10-10 q14.14-14.14 28.28-14.14 h61 q20 0 34.14 -14.14 l69-69 q14.14-14.14 34.14-14.14 h331.5 q20 0 20 20 v137"/>
+        </g>
+        <g id="telex" stroke="#784008" stroke-dasharray="8, 8">
+            <path d="m446 34 l147.8 147.8 q14.14 14.14 14.14 34.14 v562 q0 20 14.14 34.14 l87 87 q14.14 14.14 34.14 14.14 h134 q20 0 34.14 -14.14 l119 -119 q14.14 -14.14 28.28 -14.14 h228 q20 0 20 -20 v-145"/>
+        </g>
+        <g id="jrlex" stroke="#fcd647" stroke-dasharray="8, 8">
+            <path d="m242 220 l-123.5 123.5 q-14.14 14.14 -14.14 34.14 v185 q0 20 14.14 34.14 l20 20"/>
+            <path d="m27 309 v30 q0 20 14.14 34.14 l50 50 q14.14 14.14 14.14 34.14"/>
+            <path d="m106 365 q0 20 14.14 34.14 l310 310"/>
+        </g>
+        <g id="crlex" stroke="#0099aa" stroke-dasharray="8, 8">
+            <path d="m27 617h283s12.1 0.149 17.6-5.27c5.54-5.42 8.9-21.8 8.9-21.8"/>
+            <path d="m335 595 A 355 355 0 0 1 995 485.5"/>
+            <path d="m1308 598 l-83.8-83.8 q-14.14-14.14-34.14-14.14 h-151 s-14.8-0.0184-30.2-0.0486 c-7.76-0-17.1-21-17.1-21"/>
+            <path d="m1127 209.5 l67 67 q14.14 14.14 14.14 34.14 v167.4 q0 20 14.14 34.14"/>
+        </g>
+        <g id="lrt" stroke="#999999">
+            <path d="m234.4 225.6h207 q10 0 17.07-7.07 l19.2-19.2 q7.07-7.07 17.07-7.07 h10 q10 0 10 10 v46.6 q0 10-10 10 h-10 q-10 0-17.07-7.07 l-19.2-19.2 q-7.07-7.07-17.07-7.07"/>
+            <path d="m395.5 224.9v-35.2"/>
+            <path d="m1031 306 l-7.76-7.76 q-7.07-7.07-7.07-17.07 v-20 q0-10-7.07-17.07 l-19-19 q-7.07-7.07-14.14 0 l-26 26 q-7.07 7.07 0 14.14 l 19 19 q 7.07 7.07 17.07 7.07 h 20 q 10 0 17.07 7.07"/>
+            <path d="m1031 306 l 7.76 7.76 q 7.07 7.07 7.07 17.07 v 20 q0 10 7.07 17.07 l 19 19 q 7.07 7.07 14.14 0 l 26-26 q 7.07-7.07 0-14.14 l-19-19 q-7.07-7.07-17.07-7.07 h-20 q-10 0-17.07-7.07"/>
+            <path d="m1126 209.5 l-7.76-7.76 q-7.07-7.07-7.07-17.07 v-20 q0-10-7.07-17.07 l-19-19 q-7.07-7.07-14.14 0 l-26 26 q-7.07 7.07 0 14.14 l 19 19 q 7.07 7.07 17.07 7.07 h 20 q 10 0 17.07 7.07"/>
+            <path d="m1127 209.5 l 7.76 7.76 q 7.07 7.07 7.07 17.07 v 20 q0 10 7.07 17.07 l 19 19 q 7.07 7.07 14.14 0 l 26-26 q 7.07-7.07 0-14.14 l-19-19 q-7.07-7.07-17.07-7.07 h-20 q-10 0-17.07-7.07"/>
+        </g>
+    </g>
+    <g id="stns_icons" fill="#ffffff" stroke-width="2">
+        <g id="stns_ewl" stroke="#009645">
+            <circle id="cg1" cx="1236" cy="694" r="3"/>
+            <circle id="cg2" cx="1284" cy="694" r="3"/>
+            <circle id="ew1" cx="1233" cy="524.5" r="3"/>
+            <circle id="ew2" cx="1195" cy="610.5" r="3"/>
+            <circle id="ew3" cx="1195" cy="634" r="3"/>
+            <circle id="ew5" cx="1136" cy="659" r="3"/>
+            <circle id="ew6" cx="1076" cy="659" r="3"/>
+            <circle id="ew7" cx="1016" cy="659" r="3"/>
+            <circle id="ew9" cx="924" cy="660" r="3"/>
+            <circle id="ew10" cx="900.5" cy="675" r="3"/>
+            <circle id="ew11" cx="876" cy="699" r="3"/>
+            <circle id="ew15" cx="648.5" cy="856" r="3"/>
+            <circle id="ew17" cx="580" cy="748" r="3"/>
+            <circle id="ew18" cx="545.5" cy="714" r="3"/>
+            <circle id="ew19" cx="504.7" cy="673" r="3"/>
+            <circle id="ew20" cx="469" cy="637" r="3"/>
+            <circle id="ew22" cx="401" cy="570" r="3"/>
+            <circle id="ew23" cx="355" cy="524" r="3"/>
+            <circle id="ew25" cx="187" cy="514" r="3"/>
+            <circle id="ew26" cx="147" cy="514" r="3"/>
+            <circle id="ew27" cx="105" cy="514" r="3"/>
+            <circle id="ew28" cx="65" cy="514" r="3"/>
+            <circle id="ew29" cx="25" cy="575" r="3"/>
+            <circle id="ew30" cx="25" cy="617" r="3"/>
+            <circle id="ew31" cx="25" cy="639" r="3"/>
+            <circle id="ew32" cx="25" cy="663" r="3"/>
+            <circle id="ew33" cx="25" cy="685" r="3"/>
+        </g>
+        <g id="stns_nsl" stroke="#d42e12">
+            <circle id="ns2" cx="236" cy="413" r="3"/>
+            <circle id="ns3" cx="236" cy="321" r="3"/>
+            <circle id="ns5" cx="236" cy="123" r="3"/>
+            <circle id="ns7" cx="302" cy="67" r="3"/>
+            <circle id="ns8" cx="385" cy="67" r="3"/>
+            <circle id="ns9" cx="479" cy="67" r="3"/>
+            <circle id="ns10" cx="582" cy="67" r="3"/>
+            <circle id="ns11" cx="685" cy="67" r="3"/>
+            <circle id="ns12" cx="736" cy="104" r="3"/>
+            <circle id="ns13" cx="736" cy="153" r="3"/>
+            <circle id="ns14" cx="736" cy="202" r="3"/>
+            <circle id="ns15" cx="736" cy="250" r="3"/>
+            <circle id="ns16" cx="736" cy="306" r="3"/>
+            <circle id="ns18" cx="736" cy="428" r="3"/>
+            <circle id="ns19" cx="720" cy="467" r="3"/>
+            <circle id="ns20" cx="689" cy="498" r="3"/>
+            <circle id="ns22" cx="610" cy="586" r="3"/>
+            <circle id="ns23" cx="652" cy="632" r="3"/>
+            <circle id="ns28" cx="783" cy="955" r="3"/>
+        </g>
+        <g id="stns_nel" stroke="#9900aa">
+            <circle id="ne5" cx="673.5" cy="724.5" r="3"/>
+            <circle id="ne8" cx="757.5" cy="578.4" r="3"/>
+            <circle id="ne9" cx="784" cy="552" r="3"/>
+            <circle id="ne10" cx="811" cy="525" r="3"/>
+            <circle id="ne11" cx="838" cy="498" r="3"/>
+            <circle id="ne13" cx="906" cy="430" r="3"/>
+            <circle id="ne14" cx="933" cy="403.5" r="3"/>
+            <circle id="ne15" cx="968" cy="368" r="3"/>
+            <circle id="ne18" cx="1200" cy="136" r="3"/>
+        </g>
+        <g id="stns_ccl" stroke="#fa9e0d">
+            <circle id="cc2" cx="774" cy="739" r="3"/>
+            <circle id="cc3" cx="830" cy="795" r="3"/>
+            <circle id="cc5" cx="920" cy="786" r="3"/>
+            <circle id="cc6" cx="935" cy="754.5" r="3"/>
+            <circle id="cc7" cx="946" cy="720.5" r="3"/>
+            <circle id="cc8" cx="953" cy="687" r="3"/>
+            <circle id="cc10" cx="950.8" cy="610" r="3"/>
+            <circle id="cc11" cx="936.5" cy="559" r="3"/>
+            <circle id="cc12" cx="914" cy="514" r="3"/>
+            <circle id="cc14" cx="804" cy="416" r="3"/>
+            <circle id="cc16" cx="671" cy="390.8" r="3"/>
+            <circle id="cc17" cx="608" cy="402.8" r="3"/>
+            <circle id="cc18" cx="551" cy="429" r="3"/>
+            <circle id="cc20" cx="465.5" cy="514" r="3"/>
+            <circle id="cc21" cx="447" cy="549" r="3"/>
+            <circle id="cc23" cx="425.7" cy="637" r="3"/>
+            <circle id="cc24" cx="426" cy="674" r="3"/>
+            <circle id="cc25" cx="431" cy="709" r="3"/>
+            <circle id="cc26" cx="443.5" cy="750" r="3"/>
+            <circle id="cc27" cx="463.8" cy="792" r="3"/>
+            <circle id="cc28" cx="490" cy="827.5" r="3"/>
+            <circle id="cc30" cx="580" cy="895" r="3"/>
+            <circle id="cc31" cx="631" cy="912" r="3"/>
+            <circle id="cc32" cx="685" cy="919" r="3"/>
+        </g>
+        <g id="stns_dtl" stroke="#005ec4">
+            <circle id="dt2" cx="429" cy="268" r="3"/>
+            <circle id="dt3" cx="429" cy="309" r="3"/>
+            <circle id="dt5" cx="429" cy="353" r="3"/>
+            <circle id="dt6" cx="435" cy="406" r="3"/>
+            <circle id="dt7" cx="452" cy="425" r="3"/>
+            <circle id="dt8" cx="474" cy="447.5" r="3"/>
+            <circle id="dt10" cx="608" cy="486" r="3"/>
+            <circle id="dt13" cx="768" cy="645" r="3"/>
+            <circle id="dt17" cx="754" cy="866" r="3"/>
+            <circle id="dt18" cx="692" cy="803" r="3"/>
+            <circle id="dt20" cx="653.5" cy="727" r="3"/>
+            <circle id="dt21" cx="782" cy="693" r="3"/>
+            <circle id="dt22" cx="815" cy="659.8" r="3"/>
+            <circle id="dt23" cx="846" cy="629" r="3"/>
+            <circle id="dt24" cx="877" cy="610.5" r="3"/>
+            <circle id="dt25" cx="919" cy="610" r="3"/>
+            <circle id="dt27" cx="996" cy="610" r="3"/>
+            <circle id="dt28" cx="1039" cy="610" r="3"/>
+            <circle id="dt29" cx="1079" cy="610" r="3"/>
+            <circle id="dt30" cx="1122.5" cy="610" r="3"/>
+            <circle id="dt31" cx="1161" cy="610" r="3"/>
+            <circle id="dt33" cx="1236" cy="632" r="3"/>
+            <circle id="dt34" cx="1236" cy="667" r="3"/>
+            <circle id="dt36" cx="1236" cy="736" r="3"/>
+            <circle id="dt37" cx="1236" cy="766" r="3"/>
+        </g>
+        <g id="stns_tel" stroke="#784008">
+            <circle id="te1" cx="446" cy="34" r="3"/>
+            <circle id="te3" cx="529" cy="117" r="3"/>
+            <circle id="te4" cx="574" cy="161.8" r="3"/>
+            <circle id="te5" cx="608" cy="208" r="3"/>
+            <circle id="te6" cx="608" cy="247" r="3"/>
+            <circle id="te7" cx="608" cy="309.5" r="3"/>
+            <circle id="te8" cx="608" cy="357" r="3"/>
+            <circle id="te10" cx="608" cy="444" r="3"/>
+            <circle id="te12" cx="608" cy="517" r="3"/>
+            <circle id="te13" cx="608" cy="549" r="3"/>
+            <circle id="te15" cx="608" cy="648" r="3"/>
+            <circle id="te16" cx="608" cy="694" r="3"/>
+            <circle id="te18" cx="637" cy="826.4" r="3"/>
+            <circle id="te19" cx="691.7" cy="881" r="3"/>
+            <circle id="te21" cx="796" cy="913" r="3"/>
+            <circle id="te22" cx="861" cy="913" r="3"/>
+            <circle id="te23" cx="908" cy="903" r="3"/>
+            <circle id="te24" cx="948" cy="863" r="3"/>
+            <circle id="te25" cx="984" cy="827" r="3"/>
+            <circle id="te26" cx="1016" cy="795" r="3"/>
+            <circle id="te27" cx="1054" cy="766" r="3"/>
+            <circle id="te28" cx="1098" cy="766" r="3"/>
+            <circle id="te29" cx="1142" cy="766" r="3"/>
+            <circle id="te30" cx="1186" cy="766" r="3"/>
+        </g>
+        <g id="stns_ints" stroke="#000000" stroke-width="3">
+            <circle id="cc1" cx="710.2" cy="689" r="5.7"/>
+            <!-- Circle Line ints first for ease of reference. -->
+            <circle id="ce2" cx="743" cy="913.3" r="5.7"/>
+            <circle id="ce1" cx="837" cy="871" r="5.7"/>
+            <circle id="cc4" cx="891.3" cy="821" r="5.7"/>
+            <circle id="cc9" cx="954" cy="659" r="5.7"/>
+            <circle id="cc13" cx="873" cy="463.2" r="5.7"/>
+            <circle id="cc15" cx="736" cy="394" r="5.7"/>
+            <circle id="cc19" cx="498" cy="471.5" r="5.7"/>
+            <circle id="cc22" cx="431" cy="599" r="5.7"/>
+            <circle id="cc29" cx="531" cy="866" r="5.7"/>
+            <circle id="ew4" cx="1177" cy="659" r="5.7"/>
+            <circle id="ew12" cx="849" cy="726" r="5.7"/>
+            <circle id="ew13" cx="780.3" cy="790" r="5.7"/>
+            <circle id="ew14" cx="749" cy="822" r="5.7"/>
+            <circle id="ew16" cx="607" cy="790.5" r="5.7"/>
+            <circle id="ew24" cx="236" cy="514" r="5.7"/>
+            <circle id="ne4" cx="643.5" cy="754" r="5.7"/>
+            <circle id="ne7" cx="730" cy="606.5" r="5.7"/>
+            <circle id="ne16" cx="1030.7" cy="305.3" r="5.7"/>
+            <circle id="ne17" cx="1127" cy="209.5" r="5.7"/>
+            <circle id="ns4" cx="236" cy="225.5" r="5.7"/>
+            <circle id="ns21" cx="655" cy="532" r="5.7"/>
+            <circle id="dt1" cx="429" cy="225.5" r="5.7"/>
+        </g>
+        <g id="stns_bplrt" stroke="#999999" stroke-width="1.7">
+            <circle id="bp2" cx="271" cy="226" r="2.6"/>
+            <circle id="bp3" cx="306" cy="226" r="2.6"/>
+            <circle id="bp4" cx="341" cy="226" r="2.6"/>
+            <circle id="bp5" cx="376" cy="226" r="2.6"/>
+            <circle id="bp14" cx="395.5" cy="192.5" r="2.6"/>
+            <circle id="bp7" cx="471" cy="245" r="2.6"/>
+            <circle id="bp8" cx="496" cy="259" r="2.6"/>
+            <circle id="bp9" cx="515" cy="248" r="2.6"/>
+            <circle id="bp10" cx="515" cy="226" r="2.6"/>
+            <circle id="bp11" cx="515" cy="204" r="2.6"/>
+            <circle id="bp12" cx="496" cy="192" r="2.6"/>
+            <circle id="bp13" cx="471" cy="206" r="2.6"/>
+        </g>
+        <g id="stns_sklrt" stroke="#999999" stroke-width="1.7">
+            <circle id="se1" cx="1077" cy="321" r="2.6"/>
+            <circle id="se2" cx="1104" cy="339" r="2.6"/>
+            <circle id="se3" cx="1101" cy="372" r="2.6"/>
+            <circle id="se4" cx="1063" cy="377.3" r="2.6"/>
+            <circle id="se5" cx="1045.5" cy="348.5" r="2.6"/>
+            <circle id="sw1" cx="1016.5" cy="273.5" r="2.6"/>
+            <circle id="sw2" cx="1011.4" cy="247" r="2.6"/>
+            <circle id="sw3" cx="994" cy="229" r="2.6"/>
+            <circle id="sw4" cx="972" cy="229" r="2.6"/>
+            <circle id="sw5" cx="952" cy="249" r="2.6"/>
+            <circle id="sw6" cx="953.5" cy="269.5" r="2.6"/>
+            <circle id="sw7" cx="968.7" cy="284.5" r="2.6"/>
+            <circle id="sw8" cx="997" cy="291.5" r="2.6"/>
+        </g>
+        <g id="stns_pglrt" stroke="#999999" stroke-width="1.7">
+            <circle id="pe1" cx="1141.7" cy="247.3" r="2.6"/>
+            <circle id="pe2" cx="1148" cy="270" r="2.6"/>
+            <circle id="pe3" cx="1165" cy="287" r="2.6"/>
+            <circle id="pe4" cx="1195" cy="277.7" r="2.6"/>
+            <circle id="pe5" cx="1204" cy="246.5" r="2.6"/>
+            <circle id="pe6" cx="1188" cy="230.5" r="2.6"/>
+            <circle id="pe7" cx="1164" cy="224" r="2.6"/>
+            <circle id="pw1" cx="1111" cy="177" r="2.6"/>
+            <circle id="pw2" cx="1106" cy="150" r="2.6"/>
+            <circle id="pw3" cx="1089" cy="132" r="2.6"/>
+            <circle id="pw4" cx="1056" cy="144" r="2.6"/>
+            <circle id="pw5" cx="1048.5" cy="173" r="2.6"/>
+            <circle id="pw6" cx="1065.5" cy="190" r="2.6"/>
+            <circle id="pw7" cx="1091" cy="194.5" r="2.6"/>
+        </g>
+    </g>
+    <g id="stns_labels" font-family="Arial" line-height="100%">
+        <g id="lbewl" fill="#000000">
+            <text id="lbcg1" x="1205" y="707" font-size="12">Expo</text>
+            <text id="lbcg2a" x="1240" y="707" font-size="8">Neobalanocarpus</text>
+            <text id="lbcg2b" x="1242" y="719" font-size="10">Heimii Airport</text>
+            <text id="lbew1" x="1239" y="522" font-size="12">White Sand</text>
+            <text id="lbew2" x="1200" y="604" font-size="12">Ironwood</text>
+            <text id="lbew3a" x="1160" y="637" font-size="12">Four</text>
+            <text id="lbew3b" x="1140" y="649" font-size="12">Beauties</text>
+            <text id="lbew5" x="1121" y="672" font-size="12">Drum</text>
+            <text id="lbew6" x="1047" y="653" font-size="12">Expansion</text>
+            <text id="lbew7" x="1000" y="672" font-size="12">Eunos</text>
+            <text id="lbew9" x="905" y="653" font-size="12">Aljunied</text>
+            <text id="lbew10a" x="847" y="661" font-size="12">People of</text>
+            <text id="lbew10b" x="856" y="673" font-size="12">the Sea</text>
+            <text id="lbew11" x="882" y="707" font-size="12">Lavender</text>
+            <text id="lbew15a" x="600" y="864" font-size="12">Cape of</text>
+            <text id="lbew15b" x="610" y="876" font-size="12">Stakes</text>
+            <text id="lbew17a" x="545" y="753" font-size="12">New</text>
+            <text id="lbew17b" x="532" y="765" font-size="12">Cemetery</text>
+            <text id="lbew18" x="504" y="721" font-size="12">Redhill</text>
+            <text id="lbew19" x="511" y="672.5" font-size="12">Queenstown</text>
+            <text id="lbew20" x="475" y="636" font-size="12">Commonwealth</text>
+            <text id="lbew22" x="368" y="581" font-size="12">Dover</text>
+            <text id="lbew23" x="361" y="526" font-size="12">Clementi</text>
+            <text id="lbew25a" x="164" y="527" font-size="12">Chinese</text>
+            <text id="lbew25b" x="166" y="539" font-size="12">Garden</text>
+            <text id="lbew26" x="123" y="508" font-size="12">Lakeside</text>
+            <text id="lbew27a" x="74" y="527" font-size="12">Boon</text>
+            <text id="lbew27b" x="82" y="539" font-size="12">Lay</text>
+            <text id="lbew28" x="44" y="508" font-size="12">Pioneer</text>
+            <text id="lbew29a" x="32" y="573" font-size="12">Joo </text>
+            <text id="lbew29b" x="32" y="585" font-size="12">Koon </text>
+            <text id="lbew30" x="32" y="613" font-size="12">Gul Circle</text>
+            <text id="lbew31" x="32" y="643" font-size="12">Hauling Crescent</text>
+            <text id="lbew32" x="32" y="666" font-size="12">Hauling West Road</text>
+            <text id="lbew33" x="32" y="689" font-size="12">Hauling Link</text>
+        </g>
+        <g id="lbnsl" fill="#000000">
+            <text id="lbns2a" x="242" y="411" font-size="12">Coconut</text>
+            <text id="lbns2b" x="242" y="423" font-size="12">Hill</text>
+            <text id="lbns3a" x="242" y="320" font-size="12">Collection</text>
+            <text id="lbns3b" x="242" y="332" font-size="12">of Hills</text>
+            <text id="lbns5" x="242" y="125" font-size="12">Oil Pond</text>
+            <text id="lbns7" x="265" y="60" font-size="12">Dialium indum</text>
+            <text id="lbns8" x="360" y="60" font-size="12">Maxi Village</text>
+            <text id="lbns9" x="476" y="60" font-size="12">Woodlands</text>
+            <text id="lbns10" x="556" y="60" font-size="12">Admiralty</text>
+            <text id="lbns11" x="649" y="60" font-size="12">Mesua Ferruginea</text>
+            <text id="lbns12" x="679" y="108" font-size="12" fill="#aaaaaa">Canberra</text>
+            <text id="lbns13" x="693" y="156" font-size="12">Yishun</text>
+            <text id="lbns14" x="696" y="205" font-size="12">Khatib</text>
+            <text id="lbns15a" x="706" y="246" font-size="12">Yio's</text>
+            <text id="lbns15b" x="677" y="258" font-size="12">Riverbank</text>
+            <text id="lbns16a" x="667" y="317" font-size="12">Caucasian's</text>
+            <text id="lbns16b" x="696" y="329" font-size="12">Bridge</text>
+            <text id="lbns18" x="684" y="432" font-size="12">Braddell</text>
+            <text id="lbns19" x="729" y="473" font-size="12">Big Swamp</text>
+            <text id="lbns20" x="698" y="504" font-size="12">Novena</text>
+            <text id="lbns22" x="559" y="590" font-size="12">Orchard</text>
+            <text id="lbns23" x="659" y="634" font-size="12">Somerset</text>
+            <text id="lbns28a" x="786" y="967" font-size="12">Marina</text>
+            <text id="lbns28b" x="786" y="979" font-size="12">South Pier</text>
+        </g>
+        <g id="lbnel" fill="#000000">
+            <text id="lbne5a" x="680" y="729" font-size="12">Clarke</text>
+            <text id="lbne5b" x="680" y="741" font-size="12">Quay</text>
+            <text id="lbne8" x="763" y="588" font-size="12">Farrer Park</text>
+            <text id="lbne9" x="790" y="559" font-size="12">Boon Keng</text>
+            <text id="lbne10" x="817" y="532" font-size="12">Cut Sand</text>
+            <text id="lbne11" x="841" y="509" font-size="12">Woodleigh</text>
+            <text id="lbne13" x="854" y="426" font-size="12">Six Miles</text>
+            <text id="lbne14" x="942" y="408" font-size="12">River End</text>
+            <text id="lbne15" x="929" y="365" font-size="12">United</text>
+            <text id="lbns12" x="1210" y="142" font-size="12" fill="#aaaaaa">Tree Stump Coast</text>
+        </g>
+        <g id="lbccl" fill="#000000">
+            <text id="lbcc2a" x="780" y="727" font-size="12">Wet</text>
+            <text id="lbcc2b" x="780" y="739" font-size="12">Rice</text>
+            <text id="lbcc3" x="835" y="793" font-size="12">Level Space</text>
+            <text id="lbcc5a" x="926" y="790" font-size="12">Nicoll</text>
+            <text id="lbcc5b" x="926" y="802" font-size="12">Highway</text>
+            <text id="lbcc6" x="940" y="760" font-size="12">Stadium</text>
+            <text id="lbcc7" x="951" y="725" font-size="12">Mountbatten</text>
+            <text id="lbcc8" x="958" y="691" font-size="12">Allies</text>
+            <text id="lbcc10" x="953" y="604" font-size="12">Son Of Pherson</text>
+            <text id="lbcc11" x="941" y="563" font-size="12">Tai Seng</text>
+            <text id="lbcc12" x="918" y="514" font-size="12">Bartley</text>
+            <!-- <text id="lbcc14a" x="805" y="398" font-size="12">Chuan</text> -->
+            <text id="lbcc14b" x="805" y="410" font-size="12">Chuan Lane</text>
+            <text id="lbcc16" x="640" y="383" font-size="12">Marymount</text>
+            <text id="lbcc17" x="555" y="399" font-size="12">Caldecott</text>
+            <text id="lbcc20" x="472" y="520" font-size="12">Farrer Road</text>
+            <text id="lbcc21a" x="454" y="556" font-size="12">Holland</text>
+            <text id="lbcc21b" x="454" y="568" font-size="12">Village</text>
+            <text id="lbcc23a" x="394" y="635" font-size="12">one-</text>
+            <text id="lbcc23b" x="391" y="645" font-size="12">north</text>
+            <text id="lbcc24a" x="433" y="674" font-size="12">Kent</text>
+            <text id="lbcc24b" x="433" y="686" font-size="12">Ridge</text>
+            <text id="lbcc25a" x="440" y="713" font-size="12">Haw Par</text>
+            <text id="lbcc25b" x="440" y="725" font-size="12">Villa</text>
+            <text id="lbcc26a" x="454" y="752" font-size="12">Long</text>
+            <text id="lbcc26b" x="454" y="764" font-size="12">Beach</text>
+            <text id="lbcc27a" x="474" y="786" font-size="12">Labrador</text>
+            <text id="lbcc27b" x="474" y="798" font-size="12">Park</text>
+            <text id="lbcc28a" x="499" y="819" font-size="12">Cooking Pot</text>
+            <text id="lbcc28b" x="499" y="831" font-size="12">Bay</text>
+        </g>
+        <g id="lbcclex" fill="#aaaaaa">
+            <text id="lbcc18a" x="522" y="414" font-size="12">Brown</text>
+            <text id="lbcc18b" x="522" y="426" font-size="12">Hill</text>
+            <text id="lbcc30" x="542" y="911" font-size="12">Keppel</text>
+            <text id="lbcc31" x="581" y="928" font-size="12">Cantonment</text>
+            <text id="lbcc32a" x="667" y="934" font-size="12">Prince</text>
+            <text id="lbcc32b" x="663" y="946" font-size="12">Edward</text>
+        </g>
+        <g id="lbdtl" fill="#000000">
+            <text id="lbdt2" x="381" y="272" font-size="12">Cashew</text>
+            <text id="lbdt3" x="383" y="312" font-size="12">Hillview</text>
+            <text id="lbdt5a" x="388" y="352" font-size="12">Beauty</text>
+            <text id="lbdt5b" x="392" y="364" font-size="12">World</text>
+            <text id="lbdt6a" x="365" y="396" font-size="12">King Albert</text>
+            <text id="lbdt6b" x="400" y="408" font-size="12">Park</text>
+            <text id="lbdt7a" x="453" y="407" font-size="12">Sixth</text>
+            <text id="lbdt7b" x="453" y="419" font-size="12">Avenue</text>
+            <text id="lbdt8a" x="479" y="434" font-size="12">Tan</text>
+            <text id="lbdt8b" x="479" y="446" font-size="12">Kah Kee</text>
+            <text id="lbdt10" x="614" y="484" font-size="12">Stevens</text>
+            <text id="lbdt13" x="775" y="647" font-size="12">Rochor</text>
+            <text id="lbdt17" x="759" y="865" font-size="12">Downtown</text>
+            <text id="lbdt18a" x="697" y="789" font-size="12">Water</text>
+            <text id="lbdt18b" x="697" y="801" font-size="12">Bay</text>
+        </g>
+        <g id="lbdtlex" fill="#aaaaaa">
+            <text id="lbdt20a" x="635" y="708" font-size="12">Fort</text>
+            <text id="lbdt20b" x="612" y="720" font-size="12">Canning</text>
+            <text id="lbdt21" x="730" y="686" font-size="12">Bencoolen</text>
+            <text id="lbdt22a" x="818" y="672" font-size="12">Big</text>
+            <text id="lbdt22b" x="818" y="684" font-size="12">Road</text>
+            <text id="lbdt23" x="780" y="629" font-size="12">Bendeemer</text>
+            <text id="lbdt24a" x="864" y="592" font-size="12">New</text>
+            <text id="lbdt24b" x="862" y="604" font-size="12">Twist</text>
+            <text id="lbdt25" x="905" y="625" font-size="12">Peas</text>
+            <text id="lbdt27" x="971" y="625" font-size="12">Tapioca</text>
+            <text id="lbdt28a" x="1025" y="625" font-size="12">Foothill</text>
+            <!-- <text id="lbdt28b" x="1025" y="637" font-size="12">Bukit</text> -->
+            <text id="lbdt29a" x="1060" y="592" font-size="12">Drum</text>
+            <text id="lbdt29b" x="1062" y="604" font-size="12">North</text>
+            <text id="lbdt30a" x="1107" y="625" font-size="12">Drum</text>
+            <text id="lbdt30b" x="1099" y="637" font-size="12">Reservoir</text>
+            <text id="lbdt31a" x="1134" y="592" font-size="12">Ironwood</text>
+            <text id="lbdt31b" x="1146" y="604" font-size="12">West</text>
+            <text id="lbdt33a" x="1242" y="629" font-size="12">Ironwood</text>
+            <text id="lbdt33b" x="1242" y="641" font-size="12">East</text>
+            <text id="lbdt34a" x="1242" y="663" font-size="12">Upper</text>
+            <text id="lbdt34b" x="1241" y="675" font-size="8">Neobalanocarpus</text>
+            <text id="lbdt343" x="1242" y="687" font-size="12">Heimii</text>
+            <text id="lbdt36" x="1242" y="741" font-size="12">Xilin</text>
+            <text id="lbdt37a" x="1220" y="782" font-size="12">River</text>
+            <text id="lbdt37b" x="1220" y="794" font-size="12">Drum</text>
+        </g>
+        <g id="lbtelex" fill="#aaaaaa">
+            <text id="lbte1a" x="381" y="29" font-size="12">Woodlands</text>
+            <text id="lbte1b" x="411" y="41" font-size="12">North</text>
+            <text id="lbte3a" x="536" y="109" font-size="12">Woodlands</text>
+            <text id="lbte3b" x="536" y="121" font-size="12">South</text>
+            <text id="lbte4" x="582" y="163" font-size="12">Springleaf</text>
+            <text id="lbte5" x="615" y="212" font-size="12">Lethargy</text>
+            <text id="lbte6" x="615" y="250" font-size="12">Mayflower</text>
+            <text id="lbte7a" x="572" y="292" font-size="12">Bright</text>
+            <text id="lbte7b" x="587" y="304" font-size="12">Hill</text>
+            <text id="lbte8a" x="571" y="354" font-size="12">Upper</text>
+            <text id="lbte8b" x="554" y="366" font-size="12">Thomson</text>
+            <text id="lbte10a" x="615" y="442" font-size="12">Mount</text>
+            <text id="lbte10b" x="615" y="454" font-size="12">Pleasant</text>
+            <text id="lbte12" x="567" y="520" font-size="12">Napier</text>
+            <text id="lbte13a" x="560" y="546" font-size="12">Orchard</text>
+            <text id="lbte13b" x="549" y="558" font-size="12">Boulevard</text>
+            <text id="lbte15a" x="572" y="647" font-size="12">Great</text>
+            <text id="lbte15b" x="571" y="659" font-size="12">World</text>
+            <text id="lbte16" x="553" y="697" font-size="12">Havelock</text>
+            <text id="lbte18" x="644" y="827" font-size="12">Maxwell</text>
+            <text id="lbte19a" x="644" y="890" font-size="12">Shenton</text>
+            <text id="lbte19b" x="666" y="902" font-size="12">Way</text>
+            <text id="lbte21a" x="778" y="928" font-size="12">Marina</text>
+            <text id="lbte21b" x="780" y="940" font-size="12">South</text>
+            <text id="lbte22a" x="839" y="928" font-size="12">Gardens</text>
+            <text id="lbte22b" x="833" y="940" font-size="12">by the Bay</text>
+            <text id="lbte23a" x="915" y="911" font-size="12">Cape</text>
+            <text id="lbte23b" x="915" y="923" font-size="12">Rhu</text>
+            <text id="lbte24" x="955" y="872" font-size="12">Sea Turtle Park</text>
+            <text id="lbte25a" x="990" y="836" font-size="12">Sea Turtle</text>
+            <text id="lbte25b" x="990" y="848" font-size="12">Cape</text>
+            <text id="lbte26a" x="1022" y="803" font-size="12">Marine</text>
+            <text id="lbte26b" x="1022" y="815" font-size="12">Parade</text>
+            <text id="lbte27a" x="1036" y="746" font-size="12">Marine</text>
+            <text id="lbte27b" x="1034" y="758" font-size="12">Terrace</text>
+            <text id="lbte28" x="1073" y="782" font-size="12">Darkness</text>
+            <text id="lbte29" x="1118" y="758" font-size="12">Bayshore</text>
+            <text id="lbte30a" x="1170" y="782" font-size="12">Drum</text>
+            <text id="lbte30b" x="1169" y="794" font-size="12">South</text>
+        </g>
+        <g id="lbint" fill="#000000" font-weight="bold">
+            <text id="lbcc1a" x="618" y="686" font-size="12">Washerman's</text>
+            <!-- Circle Line ints first for ease of reference. -->
+            <text id="lbcc1b" x="659" y="698" font-size="12">Place</text>
+            <text id="lbce2a" x="709" y="931" font-size="12">Marina</text>
+            <text id="lbce2b" x="726" y="943" font-size="12">Bay</text>
+            <text id="lbce1" x="835" y="888" font-size="12">Bayfront</text>
+            <text id="lbcc4" x="901" y="827" font-size="12">Level Area</text>
+            <text id="lbcc9a" x="960" y="641" font-size="12">Wide</text>
+            <text id="lbcc9b" x="960" y="653" font-size="12">Swamp</text>
+            <text id="lbcc13" x="883" y="468" font-size="12">one-warped</text>
+            <text id="lbcc15" x="743" y="390" font-size="12">Burial Ground</text>
+            <text id="lbcc19a" x="441" y="470" font-size="12">Botanic</text>
+            <text id="lbcc19b" x="436" y="482" font-size="12">Gardens</text>
+            <text id="lbcc22" x="439" y="600" font-size="12">Good View</text>
+            <text id="lbcc29" x="445" y="875" font-size="12">HarbourFront</text>
+            <text id="lbew4a" x="1185" y="670" font-size="12">Red</text>
+            <text id="lbew4b" x="1185" y="682" font-size="12">Land</text>
+            <text id="lbew12a" x="858" y="730" font-size="12">Sulawesian</text>
+            <text id="lbew12b" x="868" y="742" font-size="12">Traders</text>
+            <text id="lbew13a" x="790" y="799" font-size="12">City</text>
+            <text id="lbew13b" x="790" y="811" font-size="12">Hall</text>
+            <text id="lbew14a" x="758" y="831" font-size="12">Raffles</text>
+            <text id="lbew14b" x="758" y="843" font-size="12">Place</text>
+            <text id="lbew16a" x="555" y="782" font-size="12">Outram</text>
+            <text id="lbew16b" x="572.5" y="794" font-size="12">Park</text>
+            <text id="lbew24a" x="242" y="495" font-size="12">Corner</text>
+            <text id="lbew24b" x="242" y="508" font-size="12">East</text>
+            <text id="lbns4a" x="188" y="213" font-size="12">Choa's</text>
+            <text id="lbns4b" x="169" y="225" font-size="12">Riverbank</text>
+            <text id="lbns21" x="664" y="536" font-size="12">Newton</text>
+            <text id="lbne4" x="652" y="758" font-size="12">Chinatown</text>
+            <text id="lbne7a" x="689" y="605" font-size="12">Little</text>
+            <text id="lbne7b" x="688" y="617" font-size="12">India</text>
+            <text id="lbne16a" x="953" y="310" font-size="12">Prosperous</text>
+            <text id="lbne16b" x="953" y="322" font-size="12">Harbour</text>
+            <text id="lbne17" x="1051" y="215" font-size="12">Tree Stump</text>
+            <text id="lbdt1a" x="415" y="204" font-size="12">Long</text>
+            <text id="lbdt1b" x="406" y="215" font-size="12">Hill</text>
+        </g>
+        <g id="lbbpl" fill="#000000">
+            <text id="lbbp2a" x="257" y="211" font-size="10">South</text>
+            <text id="lbbp2b" x="259" y="221" font-size="10">View</text>
+            <text id="lbbp3a" x="295" y="239" font-size="10">Keat</text>
+            <text id="lbbp3b" x="294" y="249" font-size="10">Hong</text>
+            <text id="lbbp4a" x="330" y="211" font-size="10">Teck</text>
+            <text id="lbbp4b" x="328" y="221" font-size="10">Whye</text>
+            <text id="lbbp5" x="357" y="239" font-size="10">Phoenix</text>
+            <text id="lbbp14a" x="375" y="176" font-size="10">Ten Mile</text>
+            <text id="lbbp14b" x="375" y="186" font-size="10">Junction</text>
+            <text id="lbbp7" x="472" y="242" font-size="10">Lightning</text>
+            <text id="lbbp8" x="475" y="272" font-size="10">Waist Buckle</text>
+            <text id="lbbp9" x="519" y="251" font-size="10">Rise</text>
+            <text id="lbbp10" x="519" y="229" font-size="10">Dawn</text>
+            <text id="lbbp11" x="519" y="207" font-size="10">Cut</text>
+            <text id="lbbp12" x="475" y="186" font-size="10">Granary</text>
+            <text id="lbbp13" x="475" y="215" font-size="10">Dusk</text>
+        </g>
+        <g id="lbskl" fill="#000000">
+            <text id="lbse1" x="1046" y="315" font-size="10">Compassvale</text>
+            <text id="lbse2" x="1105" y="335" font-size="10">Sago</text>
+            <text id="lbse3" x="1107" y="379" font-size="10">Foundation</text>
+            <text id="lbse4" x="1012" y="384" font-size="10">Riverbank</text>
+            <text id="lbse5" x="1018" y="354" font-size="10">Stork</text>
+            <text id="lbsw1a" x="1021" y="273" font-size="10">Cheng</text>
+            <text id="lbsw1b" x="1021" y="283" font-size="10">Lim</text>
+            <text id="lbsw2" x="1015" y="246" font-size="10">Farmway</text>
+            <text id="lbsw3" x="998" y="228" font-size="10">Village</text>
+            <text id="lbsw4" x="948" y="226" font-size="10">Gold</text>
+            <text id="lbsw5" x="911" y="246" font-size="10">Fernvale</text>
+            <text id="lbsw6" x="932" y="277" font-size="10">Sail</text>
+            <text id="lbsw7" x="923" y="293" font-size="10">Light Boat</text>
+            <text id="lbsw8" x="975" y="286" font-size="10">Tall</text>
+        </g>
+        <g id="lbpgl" fill="#000000">
+            <text id="lbpe1" x="1114" y="250" font-size="10">Cove</text>
+            <text id="lbpe2" x="1104" y="275" font-size="10">Meridian</text>
+            <text id="lbpe3" x="1110" y="293" font-size="10">Coral Edge</text>
+            <text id="lbpe4" x="1202" y="282" font-size="10">Riviera</text>
+            <text id="lbpe5" x="1209" y="245" font-size="10">Sea Town</text>
+            <text id="lbpe6" x="1193" y="229" font-size="10">Oasis</text>
+            <text id="lbpe7" x="1148" y="219" font-size="10">Peaceful</text>
+            <text id="lbpw1" x="1116" y="177" font-size="10">Sam Kee</text>
+            <text id="lbpw2" x="1112" y="150" font-size="10" fill="#aaaaaa">Teck Lee</text>
+            <text id="lbpw3" x="1095" y="131" font-size="10">Punggol Point</text>
+            <text id="lbpw4" x="1006" y="142" font-size="10">Ocean</text>
+            <text id="lbpw5" x="1013" y="181" font-size="10">Stilts</text>
+            <text id="lbpw6" x="1025" y="198" font-size="10">Sumang</text>
+            <text id="lbpw7a" x="1081" y="182" font-size="10">Soo</text>
+            <text id="lbpw7b" x="1080" y="191" font-size="10">Teck</text>
+        </g>
+    </g>
+</svg>
+<!-- CC BY-SA 3.0 Attr: https://commons.wikimedia.org/wiki/User:Aforl -->
